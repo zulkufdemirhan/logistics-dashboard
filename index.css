@@ -137,3 +137,32 @@ hr{
 td{
   color:#676767 !important;
 }
+
+.btn-primary{
+  background: #E35818 !important;
+  border: #E35818 !important;
+}
+
+.btn-outline-primary{
+  border: 1px solid #E35818 !important;
+  color: #E35818 !important;
+}
+
+.btn-outline-primary:hover{
+  background: #E35818 !important;
+  border: 1px solid #E35818 !important;
+  color: #FAFCFE !important;
+}
+
+.btn-primary:focus{
+  box-shadow: 0 0 0 .25rem rgba(234, 118, 36, 0.5) !important;
+}
+
+.btn-outline-primary:focus{
+  box-shadow: 0 0 0 .25rem rgba(234, 118, 36, 0.5) !important;
+}
+
+.btn-outline-primary:active{
+  background: #E35818 !important;
+  color: #FAFCFE !important;
+}

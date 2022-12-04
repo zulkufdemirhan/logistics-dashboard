@@ -123,114 +123,176 @@
         </li>
       </ul>
     </aside>
-    <section>
-      <div class="col-12 p-4">
+    <section class="d-flex">
+      <div>
+        <div class="col-12 p-4">
+          <div class="d-flex justify-content-between my-2">
+            <h5 class="mb-0">Recent Activities</h5>
+            <button class="btn btn-sm font-weight-bold">Edit</button>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="body-card me-4">
+              <div class="d-flex justify-content-between" style="width: 8.5rem;">
+                <h4 class="mb-0 font-weight-bolder">61</h4>
+                <img src="./Iconly/Send.png">
+              </div>
+              <span>Routes in transit</span>
+            </div>
+            <div class="body-card me-4" style="background: rgba(227, 88, 24, 0.1);">
+              <div class="d-flex justify-content-between" style="width: 8.5rem;">
+                <h4 class="mb-0 font-weight-bolder">3</h4>
+                <img src="./Iconly/Time Circle.png">
+              </div>
+              <span>Routes delayed</span>
+            </div>
+            <div class="body-card me-4" style="background: rgba(120, 173, 206, 0.1);">
+              <div class="d-flex justify-content-between" style="width: 8.5rem;">
+                <h4 class="mb-0 font-weight-bolder">12</h4>
+                <img src="./Iconly/Tick Square.png">
+              </div>
+              <span>Invoices paid</span>
+            </div>
+            <div class="body-card" style="background: rgba(99, 191, 156, 0.1);">
+              <div class="d-flex justify-content-between" style="width: 8.5rem;">
+                <h4 class="mb-0 font-weight-bolder">123</h4>
+                <img src="./Iconly/Star.png">
+              </div>
+              <span>New booking</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 px-4">
+          <div class="my-1">
+            <h5>Booking Information</h5>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Client</th>
+                <th scope="col">Type of goods</th>
+                <th scope="col">Route</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">1</td>
+                <td>Savannah Naguy</td>
+                <td>20 palletes</td>
+                <td>12-453</td>
+                <td><span class="label-success">Paid</span></td>
+                <td>---</td>
+              </tr>
+              <tr>
+                <td scope="row">2</td>
+                <td>Rick Shancez</td>
+                <td>12 liquid bulks</td>
+                <td>CU-7381</td>
+                <td><span class="label-success">Paid</span></td>
+                <td>---</td>
+              </tr>
+              <tr>
+                <td scope="row">3</td>
+                <td>Anette Black</td>
+                <td>N/A</td>
+                <td>123444123</td>
+                <td><span class="label-warning">Invoiced</span></td>
+                <td>---</td>
+              </tr>
+              <tr>
+                <td scope="row">4</td>
+                <td>Kristina Watson</td>
+                <td>69 cartons</td>
+                <td>ZD-11223</td>
+                <td><span class="label-danger">In review</span></td>
+                <td>---</td>
+              </tr>
+              <tr>
+                <td scope="row">5</td>
+                <td>Brookly Wos</td>
+                <td>11 cartons</td>
+                <td>00912-QA</td>
+                <td><span class="label-success">Paid</span></td>
+                <td>---</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-12 px-4 py-2">
+          <div class="d-flex justify-content-between my-2">
+            <h5 class="mb-0">Weekly Sales Rate</h5>
+            <h5 class="mb-0">Weekly Shipments Overview</h5>
+          </div>
+          <img src="./Iconly/Chart-2.png">
+          <img src="./Iconly/Chart-1.png">
+        </div>
+        <div class="col-12 px-4 py-2">
+          <span>Announcement:</span><span class="ms-2 text-muted">*There is traffic due to renovations on Road 17C in London.</span>
+        </div>
+      </div>
+      <div class="p-4" style="width: 28rem; border-left: 1px solid #445D713D;">
         <div class="d-flex justify-content-between my-2">
-          <h5 class="mb-0">Recent Activities</h5>
-          <button class="btn btn-sm font-weight-bold">Edit</button>
+          <h5 class="mb-0">Tracking History</h5>
+          <button class="btn btn-sm">Edit</button>
         </div>
-        <div class="d-flex justify-content-between">
-          <div class="body-card me-4">
-            <div class="d-flex justify-content-between" style="width: 8.5rem;">
-              <h4 class="mb-0 font-weight-bolder">61</h4>
-              <img src="./Iconly/Send.png">
+        <div style="width: 25rem;">
+          <img src="./Iconly/Map Scroll & Zoom.png" style="width: 25rem;">
+        </div>
+        <div class="my-2">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Order details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vehicle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Driver</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customer</a>
+            </li>
+          </ul>
+        </div>
+        <div class="my-2">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex">
+              <img class="nav-profil" src="./images/nav-profil-1.png" style="height: 2.7rem;">
+              <div class="ms-2">
+                <p class="mb-0">John Wick</p>
+                <p class="mb-0 text-muted">Driver</p>
+              </div>
             </div>
-            <span>Routes in transit</span>
-          </div>
-          <div class="body-card me-4" style="background: rgba(227, 88, 24, 0.1);">
-            <div class="d-flex justify-content-between" style="width: 8.5rem;">
-              <h4 class="mb-0 font-weight-bolder">3</h4>
-              <img src="./Iconly/Time Circle.png">
+            <div>
+              <button class="btn btn-sm btn-primary text-light me-2">Call</button>
+              <button class="btn btn-sm btn-outline-primary">Chat</button>
             </div>
-            <span>Routes delayed</span>
-          </div>
-          <div class="body-card me-4" style="background: rgba(120, 173, 206, 0.1);">
-            <div class="d-flex justify-content-between" style="width: 8.5rem;">
-              <h4 class="mb-0 font-weight-bolder">12</h4>
-              <img src="./Iconly/Tick Square.png">
-            </div>
-            <span>Invoices paid</span>
-          </div>
-          <div class="body-card" style="background: rgba(99, 191, 156, 0.1);">
-            <div class="d-flex justify-content-between" style="width: 8.5rem;">
-              <h4 class="mb-0 font-weight-bolder">123</h4>
-              <img src="./Iconly/Star.png">
-            </div>
-            <span>New booking</span>
           </div>
         </div>
-      </div>
-      <div class="col-12 px-4">
-        <div class="my-1">
-          <h5>Booking Information</h5>
+        <div class="d-flex justify-content-between align-items-center my-2 py-2" style="border-bottom: 1px solid #445D713D;">
+          <div class="text-truncate">
+            <p class="mb-0 text-muted">Driver’s license</p>
+            <p class="mb-0 ">181836</p>
+          </div>
+          <div>
+            <p class="mb-0 text-muted">ID number</p>
+            <p class="mb-0 ">2045-6169</p>
+          </div>
+          <div>
+            <p class="mb-0 text-muted">License class</p>
+            <p class="mb-0 ">A/B</p>
+          </div>
+          <div>
+            <p class="mb-0 text-muted">Insurance no</p>
+            <p class="mb-0 ">123-567-111</p>
+          </div>
         </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Client</th>
-              <th scope="col">Type of goods</th>
-              <th scope="col">Route</th>
-              <th scope="col">Status</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row">1</td>
-              <td>Savannah Naguy</td>
-              <td>20 palletes</td>
-              <td>12-453</td>
-              <td><span class="label-success">Paid</span></td>
-              <td>---</td>
-            </tr>
-            <tr>
-              <td scope="row">2</td>
-              <td>Rick Shancez</td>
-              <td>12 liquid bulks</td>
-              <td>CU-7381</td>
-              <td><span class="label-success">Paid</span></td>
-              <td>---</td>
-            </tr>
-            <tr>
-              <td scope="row">3</td>
-              <td>Anette Black</td>
-              <td>N/A</td>
-              <td>123444123</td>
-              <td><span class="label-warning">Invoiced</span></td>
-              <td>---</td>
-            </tr>
-            <tr>
-              <td scope="row">4</td>
-              <td>Kristina Watson</td>
-              <td>69 cartons</td>
-              <td>ZD-11223</td>
-              <td><span class="label-danger">In review</span></td>
-              <td>---</td>
-            </tr>
-            <tr>
-              <td scope="row">5</td>
-              <td>Brookly Wos</td>
-              <td>11 cartons</td>
-              <td>00912-QA</td>
-              <td><span class="label-success">Paid</span></td>
-              <td>---</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="col-12 px-4 py-2">
-        <div class="d-flex justify-content-between my-2">
-          <h5 class="mb-0">Weekly Sales Rate</h5>
-          <h5 class="mb-0">Weekly Shipments Overview</h5>
+
+        <div class="mt-4" style="width: 25rem;">
+          <img src="./Iconly//Box-Timeline.png" style="width: 25rem;">
         </div>
-        <img src="./Iconly/Chart-2.png">
-        <img src="./Iconly/Chart-1.png">
-      </div>
-      <div class="col-12 px-4 py-2">
-        <span>Announcement:</span><span class="ms-2 text-muted">*There is traffic due to renovations on Road 17C in London.</span>
-      </div>
-      <div class="col-3 p-4">
       </div>
     </section>
   </div>
